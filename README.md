@@ -1,1 +1,1 @@
-# reconnaissance-de-chiffre-CMC
+# reconnaissance-de-chiffre-CMC-par-ecriture
