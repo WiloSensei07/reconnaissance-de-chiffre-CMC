@@ -4,7 +4,7 @@ function imgBW = imageBinarisation(imdata,seuil)
 imdata = image2Double(imdata);
 
 %% Binarisation par seuillage 
-[rows,col] =size(imdata);
+[rows,col] =size(imdata); %...Complété
 for i=1:rows
     for j=1:col
         if imdata(i,j)<=seuil
@@ -14,7 +14,7 @@ for i=1:rows
         end
 
     end
-end
+end %...Complété
 imgBW = imdata;
 
 %% Convertir les valeurs en double

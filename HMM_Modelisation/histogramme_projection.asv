@@ -7,7 +7,7 @@ if strcmpi(dim,'v') % histogramme de projections verticales
 %     size(l)
 elseif strcmpi(dim,'h') % histogramme de projections horizontales 
     % .... %completé
-    l = sum(imdata,2); %somme des lignes
+    l = sum(imdata,2); %somme des lig
     %l=l';
 %     size(l)
 else
