@@ -13,5 +13,4 @@ elseif strcmpi(dim,'h') % histogramme de projections horizontales
 else
     error('error')
 end
-
 %%
